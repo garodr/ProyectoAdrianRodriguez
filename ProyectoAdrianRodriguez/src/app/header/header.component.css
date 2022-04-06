@@ -5,6 +5,14 @@ div {
     background: rgb(123,123,123);
 }
 img {
-    width: 100px;
-    height: 80px;
+    width: 150px;
+    height: 100px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.logoingreso {
+    width: 80px;
+    height: 50px;
 }
