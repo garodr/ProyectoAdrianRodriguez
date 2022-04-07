@@ -1,78 +1,58 @@
 .logoAp {
-    width: 150px;
-    height: 100px;
+  width: 150px;
+  height: 100px;
+  animation-name: fade2;
+  animation-duration: 30s;
 }
 .logo {
-    width: 50px;
-    height: 50px;
-   padding: 0px;
-   
-  
+  width: 50px;
+  height: 50px;
+  padding: 0px;
 }
 .logoingreso {
-    width: 100px;
-    height: 50px;
-    border-radius: 50%;
-    padding: 0px;
-    margin: 5px;
-    }
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 0px;
+  margin: 5px;
+  z-index: 5;
+}
 button {
-   border-radius: 95%;
-    color: rgb(123, 123, 123);
-    background: rgb(123, 123, 123);
-    padding: 0;
-    
-    
+  border-radius: 95%;
+  color: rgb(123, 123, 123);
+  background: rgb(123, 123, 123);
+  padding: 0;
+  animation-name: fade2;
+  animation-duration: 1s;
+  z-index: 5;
 }
 button:hover {
-animation-name: color-fondo;
-animation-duration: 500ms;
-animation-fill-mode:forwards  ;
-transform: scale(1.05);
+  animation-name: color-fondo;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  transform: scale(1.05);
+  z-index: 5;
+}
+@keyframes fade2 {
+  0% {
+    opacity: 0;
+  }
 }
 @keyframes color-fondo {
-    100% {
-        background-color: #4791d0;
-    }
+  100% {
+    background-color: #4791d0;
+  }
 }
-.stars {
-    background-color: white;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    animation-iteration-count: infinite;
+#banner {
+  width: 100%;
+  height: 70%;
+  margin-top: -15%;
+  animation-name: fade;
+  animation-duration: 1s;
+  z-index: -15;
 }
-.star-1 {
-margin-top: 15%;
-margin-left: 60%;
-animation-name: prendida-1;
-animation-duration: 1s;
-}
-.star-2 {
-    margin-top: 25%;
-    margin-left: 25%;
-    animation-name: prendida-2;
-    animation-duration: 1s;
-    }
-@keyframes prendida-1 {
-    50% {
-        transform: scale(0.5);
-        opacity: 0.5;
-    }
-}
-@keyframes prendida-2 {
-    20% {
-        transform: scale(0.5);
-        opacity: 0.5;
-    }
-}
-#back {
-    position: fixed;
-    padding: auto ;
-    margin: auto;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(black, #000099, #66c2ff, #ccf1ff, #b9c5f8);
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
 }
