@@ -9,6 +9,8 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 import { EstudiosComponent } from './estudios/estudios.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { CirculosComponent } from './circulos/circulos.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CirculosComponent } from './circulos/circulos.component';
     AcercaDeComponent,
     EstudiosComponent,
     ExperienciaComponent,
-    CirculosComponent
+    CirculosComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
