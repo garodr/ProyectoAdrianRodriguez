@@ -5,7 +5,11 @@
 h2, h3 {
     display: inline;
 }
-img {
-box-shadow: 10px 10px 100px #22A5EB;
+img-fluid {
 
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
+

@@ -1,0 +1,119 @@
+personas/crear
+
+{
+"id":1,
+"nombre": "Gustavo Adrian",
+"apellido": "Rodriguez"
+}
+
+acerca/crear
+
+{
+"id":1,
+"acerca": "Soy desarrollador web desde la epoca del ActionScript y las animaciones con Flash. Los camninos de la vida me llevaron por otros lados, pero aca estamos regresando por mas."
+}
+
+estudios/crear
+
+{
+"id":1,
+"institucion": "Esc. Bandera Argentina",
+"titulo": "Primaria",
+"duracion": "7 años"
+}
+
+{
+"id":2,
+"institucion": "E.N.E.T. Nro.5 Dr. Bialet Masse",
+"titulo": "Tecnico Electronico- Secundario",
+"duracion": "6 años"
+}
+
+{
+"id":3,
+"institucion": "UNC",
+"titulo": "Ing. Civil (inconcluso)",
+"duracion": "3 años"
+}
+
+{
+"id":4,
+"institucion": "Argentina Programa",
+"titulo": "Web Full Stack Jr.",
+"duracion": "1,5 años"
+}
+
+
+
+experiencia/crear
+
+{
+"id":6,
+"lugar": "SERNIC (Nueva York) Animación y publicaciones",
+"tarea": "Realizando animaciones, presentaciones y publicación de paginas web.",
+"duracion": "2001-2001"
+}
+
+{
+"id":5,
+"lugar": "Memphis Computación",
+"tarea": "Técnico de reparación, Atención al cliente y Ventas.",
+"duracion": "2001–2003"
+}
+
+{
+"id":4,
+"lugar": "Universidad Siglo 21",
+"tarea": "Profesor de lamateria: Software de Base 2",
+"duracion": "2010-2016"
+}
+
+{
+"id":3,
+"lugar": "Universidad Siglo 21",
+"tarea": "Profesor de lamateria: Software de Base 3",
+"duracion": "2010-2016"
+}
+
+{
+"id":2,
+"lugar": "Universidad Siglo 21",
+"tarea": "Profesor de lamateria: Software de Base 4
+",
+"duracion": "2010-2016"
+}
+
+
+{
+"id":1,
+"lugar": "ARRT Ingenieros Consultores",
+"tarea": "Técnico de Laboratorio. Encargado de Personal y de Obra.",
+"duracion": "2016-2022"
+}
+
+hard/crear
+
+{
+"id":1,
+"html": "25",
+"css": "50",
+"js": "45"
+"angular":"65",
+"vs":"45",
+"excel":"99"
+}
+
+
+soft/crear
+
+{
+"id":1,
+"linux": "25",
+"gimp": "50",
+"inkcape": "45"
+"ingles":"65",
+"trabajoeq":"45",
+"creatividad":"99",
+}
+
+

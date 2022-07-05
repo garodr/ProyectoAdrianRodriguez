@@ -9,16 +9,7 @@
   height: 50px;
   padding: 0px;
 }
-.logoingreso {
-  flex-direction: column;
-  align-items: center;
-  width: 100px;
-  height: 50px;
-  border-radius: 50%;
-  padding: 0px;
-  margin: 5px;
- 
-}
+
 button {
   border-radius: 95%;
   color: rgb(123, 123, 123);
@@ -48,9 +39,9 @@ button:hover {
 #banner {
   width: 100%;
   height: 70%;
-  margin-top: 0%;
+  margin-top: -5%;
   animation-name: fade;
-  animation-duration: 1s;
+  animation-duration: 15s;
   
 }
 @keyframes fade {
@@ -66,6 +57,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 .redes img {
   margin: 0.01em;

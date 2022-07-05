@@ -6,5 +6,9 @@ footer {
     text-align: center;
     flex-direction: column;
     padding: 20px;
-    box-shadow: 1px 1px 2px #999;
+    box-shadow: 1px 1px 2px #7b7b7b;
+}
+
+button {
+    margin-bottom: 30px;
 }

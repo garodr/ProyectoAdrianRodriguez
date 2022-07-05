@@ -3,41 +3,16 @@
      <div class="col-12">
          <h1>Estudios Realizados</h1>
      </div>
-        <div class="col-md-10">
+        <div  class="col-md-11">
         <ul>
-          <li>
-            <h2>Estudios 1</h2>-<h3>(Años)</h3>
+          <li *ngFor="let item of estudio">
+            <h2>{{item.titulo}}</h2> <h2>-</h2>  <h3>Duración: {{item.duracion}}</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos
-              aliquid iusto, sed libero consequatur neque pariatur quaerat error
-              tempora dolore alias quibusdam mollitia nemo repudiandae? Expedita
-              quae voluptatem molestias!
+              {{item.institucion}}
             </p>
             </li>
         </ul>
-        <ul>
-          <li>
-            <h2>Estudios 2</h2>-<h3>(Años)</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos
-              aliquid iusto, sed libero consequatur neque pariatur quaerat error
-              tempora dolore alias quibusdam mollitia nemo repudiandae? Expedita
-              quae voluptatem molestias!
-            </p>
-            </li>
-        </ul>
-        <ul>
-          <li>
-            <h2>Estudios 3</h2> -  <h3>(Años)</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos
-              aliquid iusto, sed libero consequatur neque pariatur quaerat error
-              tempora dolore alias quibusdam mollitia nemo repudiandae? Expedita
-              quae voluptatem molestias!
-            </p>
-            </li>
-        </ul>
-      </div>
+        </div>
     </div>
   </div>
   

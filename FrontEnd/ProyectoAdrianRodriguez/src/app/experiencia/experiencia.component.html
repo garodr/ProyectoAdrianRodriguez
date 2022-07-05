@@ -1,40 +1,16 @@
 <div class="container">
   <div class="row">
-   <div class="col-12">
-       <h1>Experiencia Laboral</h1>
-   </div>
-      <div class="col-md-10">
+    <div class="col-12">
+      <h1>Experiencia Laboral</h1>
+    </div>
+    <div class="col-md-11">
       <ul>
-        <li>
-          <h2>Trabajo 1</h2>-<h3>(Años)</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos
-            aliquid iusto, sed libero consequatur neque pariatur quaerat error
-            tempora dolore alias quibusdam mollitia nemo repudiandae? Expedita
-            quae voluptatem molestias!
-          </p>
-          </li>
-      </ul>
-      <ul>
-        <li>
-          <h2>Trabajo 2</h2>-<h3>(Años)</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos
-            aliquid iusto, sed libero consequatur neque pariatur quaerat error
-            tempora dolore alias quibusdam mollitia nemo repudiandae? Expedita
-            quae voluptatem molestias!
-          </p>
-          </li>
-      </ul>
-      <ul>
-        <li>
-          <h2>Trabajo 3</h2> -  <h3>(Años)</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quos
-            aliquid iusto, sed libero consequatur neque pariatur quaerat error
-            tempora dolore alias quibusdam mollitia nemo repudiandae? Expedita
-            quae voluptatem molestias!
-          </p>
+        <li *ngFor="let item2 of experiencia">
+          <h2>{{item2.lugar}}</h2>
+          <h4>Año de ingreso-egreso: {{item2.duracion}}</h4>
+          <h4>
+            {{item2.tarea}}
+          </h4>
           </li>
       </ul>
     </div>

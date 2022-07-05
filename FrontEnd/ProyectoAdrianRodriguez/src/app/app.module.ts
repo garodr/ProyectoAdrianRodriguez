@@ -11,6 +11,10 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 import { CirculosComponent } from './circulos/circulos.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { FooterComponent } from './footer/footer.component';
+import { HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
+import { PanelComponent } from './panel/panel/panel.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +25,16 @@ import { FooterComponent } from './footer/footer.component';
     ExperienciaComponent,
     CirculosComponent,
     ProyectosComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    LoginComponent,
+    PanelComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
